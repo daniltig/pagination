@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title></title>
+
+      <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+      <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+      <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+
+      <link rel="stylesheet" href="style.css">
+      <script src="onload unload.js"></script>
+   </head>
+   <body onload="f_onload()" onunload="f_unload()">
+      <input id="input_nameRepository" type="text" placeholder="имя репозитория">
+      <button type="button" onclick="functionName()">Загрузить список</button>
+      <table id="table"></table>
+      <ul id="pagination"></ul>
+
+      <script src="script.js"></script>
+   </body>
+</html>
